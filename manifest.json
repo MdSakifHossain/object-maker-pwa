@@ -1,0 +1,85 @@
+{
+	"name": "Object Maker App",
+	"short_name": "ObjMakerApp",
+	"start_url": "/",
+	"display": "standalone",
+	"theme_color": "#ffffff",
+	"background_color": "#ffffff",
+	"orientation": "portrait-primary",
+	"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In enim purus, faucibus placerat nibh tempus, dictum aliquet quam. Quisque a aliquam lacus. Cras metus velit - Teri maa ki chuuuut.. 😁😁😘😘",
+	"icons": [
+		{
+			"src": "/icons/icon.svg",
+			"type": "image/svg+xml",
+			"sizes": "any"
+		}
+	],
+	"screenshots": [
+		{
+			"src": "/screenshots/ss-demo.png",
+			"sizes": "1080x2412",
+			"type": "image/png"
+		},
+		{
+			"src": "/screenshots/ss-demo.png",
+			"sizes": "1080x2412",
+			"type": "image/png"
+		},
+		{
+			"src": "/screenshots/ss-demo.png",
+			"sizes": "1080x2412",
+			"type": "image/png"
+		},
+		{
+			"src": "/screenshots/ss-demo.png",
+			"sizes": "1080x2412",
+			"type": "image/png"
+		}
+	],
+	"shortcuts": [
+		{
+			"name": "Home",
+			"url": "/",
+			"icons": [
+				{
+					"src": "/icons/icon.svg",
+					"type": "image/svg+xml",
+					"sizes": "any"
+				}
+			]
+		},
+		{
+			"name": "Explore",
+			"url": "/",
+			"icons": [
+				{
+					"src": "/icons/icon.svg",
+					"type": "image/svg+xml",
+					"sizes": "any"
+				}
+			]
+		},
+		{
+			"name": "Subscriptions",
+			"url": "/",
+			"icons": [
+				{
+					"src": "/icons/icon.svg",
+					"type": "image/svg+xml",
+					"sizes": "any"
+				}
+			]
+		},
+		{
+			"name": "Notifications",
+			"url": "/",
+			"icons": [
+				{
+					"src": "/icons/icon.svg",
+					"type": "image/svg+xml",
+					"sizes": "any"
+				}
+			]
+		}
+	]
+}

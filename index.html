@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0 user-scalable=no"
+		/>
+		<link rel="manifest" href="/manifest.json" />
+	</head>
+	<body>
+		<div id="app">
+		    <button class="change-color" id="change_theme_color_btn">Change Color</button>
+			<div class="new-item">
+				<input type="number" placeholder="ID" id="id" />
+				<!-- <button class="new-item-paste-btn" >Paste</button> -->
+			</div>
+
+			<div class="new-item">
+				<input
+					type="text"
+					placeholder="name"
+					readonly
+					id="name_field"
+				/>
+				<button class="new-item-paste-btn" id="name_paste_btn">
+					Paste
+				</button>
+			</div>
+
+			<div class="new-item">
+				<textarea
+					placeholder="Description"
+					readonly
+					id="description_field"
+				></textarea>
+				<button class="new-item-paste-btn" id="description_paste_btn">
+					Paste
+				</button>
+			</div>
+
+			<div class="code-output-area">
+				<button class="code-output-area-copy-btn" id="code_copy_btn">
+					Copy
+				</button>
+				<div id="code_output">
+					{<br />
+					<span class="key"> "id"</span>: <span class="value">0</span>,<br />
+					<span class="key"> "name"</span>: <span class="value">""</span>,<br />
+					<span class="key"> "description"</span>: <span class="value">""</span><br />
+					},<br />
+				</div>
+			</div>
+
+			<div class="control-center">
+				<button class="control-center-btn" id="reset_btn">Reset</button>
+				<button class="control-center-btn" id="generate_btn">
+					Generate
+				</button>
+			</div>
+		</div>
+
+		<div id="toastBox">
+			<!--
+		    <div class="toast-item">✅ Successfully Copied...!!!</div>
+		    <div class="toast-item">❌ Error ❌</div>
+		    -->
+		</div>
+		<script type="module" src="/src/js/main.js"></script>
+	</body>
+</html>
