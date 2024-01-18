@@ -61,9 +61,9 @@ const hardReset = () => {
 	description_field.value = null;
 	code_output.innerHTML = `
 {<br />
-<span class="key"> "id"</span>: <span class="value">0</span>,<br />
-<span class="key"> "name"</span>: <span class="value">""</span>,<br />
-<span class="key"> "description"</span>: <span class="value">""</span><br />
+<span class="key"> id</span>: <span class="value">0</span>,<br />
+<span class="key"> name</span>: <span class="value">""</span>,<br />
+<span class="key"> description</span>: <span class="value">""</span><br />
 },<br />
 `;
 };
